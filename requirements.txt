@@ -1,0 +1,6 @@
+# Requirements for PDF Malware Analysis Toolkit
+PyPDF2>=3.0.0
+
+# Optional (for OCR on scanned PDFs)
+# pytesseract>=0.3.10
+# Pillow>=9.0.0

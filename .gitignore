@@ -1,0 +1,4 @@
+__pycache__/
+reports/
+*.pyc
+extracted_files/

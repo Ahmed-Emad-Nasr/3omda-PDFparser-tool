@@ -1,0 +1,47 @@
+%PDF-1.1
+
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /OpenAction 3 0 R >>
+endobj
+
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+
+3 0 obj
+<<
+    /S /JavaScript
+    /JS (app.alert("Malware Test");
+         eval(unescape("%41%42%43%44"));
+         var url = "http://malicious.example.com";
+    )
+    >>
+endobj
+
+4 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 5 0 R >>
+endobj
+
+5 0 obj
+<< /Length 41 >>
+stream
+BT /F1 12 Tf 100 700 Td (Test Page) Tj ET
+endstream
+endobj
+
+xref
+0 6
+0000000000 65535 f
+0000000012 00000 n
+0000000084 00000 n
+0000000146 00000 n
+0000000335 00000 n
+0000000403 00000 n
+trailer
+<<
+ /Size 6
+ /Root 1 0 R
+>>
+startxref
+502
+%%EOF
