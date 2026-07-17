@@ -34,7 +34,7 @@ def get_pdfs(path):
 
 
 print("=== PDF Malware Analysis Toolkit ===\n")
-user_input = input("Enter PDF file path OR folder path: ").strip()
+user_input = input("Enter PDF file path OR folder path: ").strip().strip('"').strip("'")
 pdfs = get_pdfs(user_input)
 
 for pdf in pdfs:
